@@ -1,0 +1,28 @@
+[2016-02-23 01:39:05,637][INFO ][node                     ] [Ocelot] version[2.2.0], pid[935], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-02-23 01:39:05,640][INFO ][node                     ] [Ocelot] initializing ...
+[2016-02-23 01:39:06,398][INFO ][plugins                  ] [Ocelot] modules [lang-groovy, lang-expression], plugins [], sites []
+[2016-02-23 01:39:06,436][INFO ][env                      ] [Ocelot] using [1] data paths, mounts [[/ (none)]], net usable_space [4.7gb], net total_space [5.2gb], spins? [possibly], types [aufs]
+[2016-02-23 01:39:06,436][INFO ][env                      ] [Ocelot] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-02-23 01:39:08,858][INFO ][node                     ] [Ocelot] initialized
+[2016-02-23 01:39:08,858][INFO ][node                     ] [Ocelot] starting ...
+[2016-02-23 01:39:08,961][INFO ][transport                ] [Ocelot] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-02-23 01:39:08,971][INFO ][discovery                ] [Ocelot] elasticsearch/rGXnp8D6RqufsQgMEizZFA
+[2016-02-23 01:39:12,053][INFO ][cluster.service          ] [Ocelot] new_master {Ocelot}{rGXnp8D6RqufsQgMEizZFA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-02-23 01:39:12,078][INFO ][http                     ] [Ocelot] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-02-23 01:39:12,079][INFO ][node                     ] [Ocelot] started
+[2016-02-23 01:39:12,152][INFO ][gateway                  ] [Ocelot] recovered [1] indices into cluster_state
+[2016-02-23 01:39:12,713][INFO ][cluster.routing.allocation] [Ocelot] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3]] ...]).
+[2016-02-23 16:29:41,479][INFO ][node                     ] [Killraven] version[2.2.0], pid[1431], build[8ff36d1/2016-01-27T13:32:39Z]
+[2016-02-23 16:29:41,481][INFO ][node                     ] [Killraven] initializing ...
+[2016-02-23 16:29:42,388][INFO ][plugins                  ] [Killraven] modules [lang-groovy, lang-expression], plugins [], sites []
+[2016-02-23 16:29:42,444][INFO ][env                      ] [Killraven] using [1] data paths, mounts [[/ (none)]], net usable_space [4.7gb], net total_space [5.2gb], spins? [possibly], types [aufs]
+[2016-02-23 16:29:42,444][INFO ][env                      ] [Killraven] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-02-23 16:29:45,648][INFO ][node                     ] [Killraven] initialized
+[2016-02-23 16:29:45,649][INFO ][node                     ] [Killraven] starting ...
+[2016-02-23 16:29:45,783][INFO ][transport                ] [Killraven] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-02-23 16:29:45,795][INFO ][discovery                ] [Killraven] elasticsearch/yUmjJz20TEekr665EF13VA
+[2016-02-23 16:29:48,970][INFO ][cluster.service          ] [Killraven] new_master {Killraven}{yUmjJz20TEekr665EF13VA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-02-23 16:29:48,990][INFO ][http                     ] [Killraven] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-02-23 16:29:48,991][INFO ][node                     ] [Killraven] started
+[2016-02-23 16:29:49,089][INFO ][gateway                  ] [Killraven] recovered [1] indices into cluster_state
+[2016-02-23 16:29:49,834][INFO ][cluster.routing.allocation] [Killraven] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[products][3], [products][3]] ...]).
