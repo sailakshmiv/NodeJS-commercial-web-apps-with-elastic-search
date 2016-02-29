@@ -16,7 +16,7 @@ var UserSchema = new Schema({
     address: String,
     history: [{
         paid: { type: Number, default: 0 },
-        item: { type: mongoose.Schema.Types.ObjectId, ref: 'Product' }
+        item: { type: Schema.Types.ObjectId, ref: 'Product' }
     }]
 });
 

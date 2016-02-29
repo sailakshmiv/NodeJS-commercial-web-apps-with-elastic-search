@@ -22,8 +22,8 @@ $(function(){
   , hwaccel: false // Whether to use hardware acceleration
   , position: 'absolute' // Element positioning
   }
-  var target = document.getElementById('foo')
-  var spinner = new Spinner(opts).spin(target);
+  // var target = document.getElementById('foo');
+  // var spinner = new Spinner(opts).spin(target);
   
   $('#search').keyup(function(){
       var search_term = $(this).val();
@@ -106,6 +106,7 @@ $(function(){
       
       var spinner = new Spinner(opts).spin();
       $('#loading').append(spinner.el);
+      
       // and submit
       $form.get(0).submit();
     }
