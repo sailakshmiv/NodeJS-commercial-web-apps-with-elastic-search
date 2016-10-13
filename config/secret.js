@@ -1,5 +1,5 @@
 module.exports = {
-    database: 'mongodb://admin:123@ds011238.mongolab.com:11238/kanemadeit',
-    port: process.env.PORT,
+    database: 'mongodb://127.0.0.1:27017/kanemadeit',
+    port: 3000,
     secretKey: "Kanemadeit!@#$%"
 }
